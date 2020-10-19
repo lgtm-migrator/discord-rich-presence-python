@@ -1,5 +1,4 @@
 pypresence
 coverage
-unittest
 psutil
 requests
