@@ -1,6 +1,6 @@
 language: python
 
 script:
-- sudo pip3 install requirements-testing.txt
+- sudo pip install requirements-testing.txt
 - coverage run -m pytest main-testing.py
 - bash <(curl -s https://codecov.io/bash)
