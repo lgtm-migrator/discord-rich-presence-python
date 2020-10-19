@@ -20,4 +20,4 @@ while True:
     time.sleep(15)
 
 while True: 
-    time.sleep(15)
+    time.sleep(15) # worst code ive ever seen -pop101
