@@ -20,6 +20,3 @@ except Exception:
     print('Something went wrong while updating rich Presence')
 else:
     print('Rich Presence updated.')
-
-if __name__ == '__main__':
-    unittest.main()
