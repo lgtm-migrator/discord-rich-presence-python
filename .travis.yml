@@ -9,6 +9,5 @@ addons:
 before_install:
   - "pip3 install -r requirements-testing.txt"
 script:
-- sudo pip install requirements-testing.txt
 - coverage run -m pytest main-testing.py
 - bash <(curl -s https://codecov.io/bash)
