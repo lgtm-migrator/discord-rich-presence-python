@@ -3,6 +3,8 @@ import psutil
 import time
 import requests
 
+[pytest]
+
 client_id = "765270886164201502"
 RPC = Presence(client_id)
 
