@@ -1,13 +1,8 @@
-sudo: false
-dist: "trusty" # otherwise 'python3-pip' won't be available
-language: "python"
-addons:
-  apt:
-    packages:
-      - "python3"
-      - "python3-pip"
+os: windows
+language: "bash"
 before_install:
+  - choco install python
   - "pip3 install -r requirements-testing.txt"
 script:
-- coverage run -m pytest main-testing.py
-- bash <(curl -s https://codecov.io/bash)
+  - coverage run -m pytest main-testing.py
+  - bash <(curl -s https://codecov.io/bash)
