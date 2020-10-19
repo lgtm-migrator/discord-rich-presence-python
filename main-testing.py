@@ -5,7 +5,8 @@ import time
 client_id = "765270886164201502"
 RPC = Presence(client_id)
 
-RPC.connect()
+print(200 <= requests.get('http://discord.com').status_code < 300)
+
 
 while True:  
     cpu_per = round(psutil.cpu_percent(),1) 
