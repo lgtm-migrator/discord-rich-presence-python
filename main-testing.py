@@ -9,7 +9,7 @@ RPC = Presence(client_id)
 print(200 <= requests.get('http://discord.com').status_code < 300)
 
 
-while True:  
+ 
     cpu_per = round(psutil.cpu_percent(),1) 
     mem = psutil.virtual_memory()
     mem_per = round(psutil.virtual_memory().percent,1)
