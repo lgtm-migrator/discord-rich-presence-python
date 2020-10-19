@@ -2,3 +2,4 @@ pypresence
 coverage
 pytest
 psutil
+requests
