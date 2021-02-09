@@ -1,5 +1,6 @@
-# discord-rich-presence-python
-[![codecov](https://codecov.io/gh/TennisBowling/discord-rich-presence-python/branch/main/graph/badge.svg?token=FKSZTY790B)](undefined)
+# discord-rich-presence-python [![codecov](https://codecov.io/gh/TennisBowling/discord-rich-presence-python/branch/main/graph/badge.svg?token=FKSZTY790B)](undefined)  [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
+
+
 discord-rich-presence-python is code that will display your ram and cpu usage as rich presence on discord.
 
 ## usage
